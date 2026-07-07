@@ -4,26 +4,6 @@ import time
 # 1. Konfigurasi Halaman (Biar ada dekorasi emoji hati di tab browser)
 st.set_page_config(page_title="Happy Birthday Sayang! 🎉", page_icon="❤️", layout="centered")
 
-# Custom tampilan CSS untuk memaksa warna background pink dan teks hitam pekat
-st.markdown("""
-    <style>
-    /* Mengubah background seluruh halaman menjadi pink soft/pastel */
-    .stApp {
-        background-color: #FFF0F5 !important; /* Warna Lavender Blush */
-    }
-    
-    /* Mengubah warna teks judul utama biar makin cantik */
-    h1 {
-        color: #FF69B4 !important; /* Warna Hot Pink */
-    }
-    
-    /* Memaksa semua teks biasa, subheader, dan caption berwarna gelap agar terlihat jelas */
-    h2, h3, p, span, label, .stMarkdown {
-        color: #1E1E1E !important; /* Hitam Pekat */
-    }
-    </style>
-    """, unsafe_allow_html=True)
-
 # Judul Utama
 st.title("💖 Selamat Ulang Tahun, Istriku Tercinta! 💖")
 st.caption("Sebuah aplikasi kecil yang dibuat dengan penuh cinta oleh suamimu di sela jarak kita.")
@@ -73,7 +53,7 @@ kado_pilihan = st.selectbox(
     ]
 )
 
-if kado_pilihan != "Pilih salah satu...":
+if kado_pilihan != "Pilihan salah satu...":
     st.write(f"### Kamu memilih: **{kado_pilihan}**")
     
     # Tombol klaim kado
