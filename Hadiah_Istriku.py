@@ -4,7 +4,22 @@ import time
 # 1. Konfigurasi Halaman (Biar ada dekorasi emoji hati di tab browser)
 st.set_page_config(page_title="Happy Birthday Sayang! 🎉", page_icon="❤️", layout="centered")
 
-# Custom tampilan sedikit biar teksnya rapi
+# Custom tampilan CSS untuk background pink pastel dan warna teks
+st.markdown("""
+    <style>
+    /* Mengubah background seluruh halaman menjadi pink soft/pastel */
+    .stApp {
+        background-color: #FFF0F5; /* Warna Lavender Blush */
+    }
+    
+    /* Mengubah warna teks judul utama biar makin cantik */
+    h1 {
+        color: #FF69B4 !important; /* Warna Hot Pink */
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+# Judul Utama
 st.title("💖 Selamat Ulang Tahun, Istriku Tercinta! 💖")
 st.caption("Sebuah aplikasi kecil yang dibuat dengan penuh cinta oleh suamimu di sela jarak kita.")
 
@@ -48,7 +63,7 @@ kado_pilihan = st.selectbox(
         "Transferan buat Check Out Kebutuhann 🛍️",
         "Paket Skincare Langsung Dikirim ke Rumah nii 💄",
         "Kaka GoFood-in Makanan Favorit Adee 🍕",
-        "Skin Baru Buat Main Mobile Legend Barengg"
+        "Skin Baru Buat Main Mobile Legend Barengg 🎮",
         "Janji Liburan Berdua setelah Kita Ketemu Nantii ✈️"
     ]
 )
@@ -59,4 +74,4 @@ if kado_pilihan != "Pilih salah satu...":
     # Tombol klaim kado
     if st.button("Klaim Kupon Sekarang 🚀"):
         st.write("🎉 **Kupon Berhasil Diklaim!**")
-        st.info("Silakan screenshoot bagian ini, lalu kirim ke WhatsApp suamimu untuk langsung dicairkan! Ditunggu ya! ❤️")
+        st.info("Silakan screenshot bagian ini, lalu kirim ke WhatsApp kaka untuk langsung dicairkan! Ditunggu ya adee! ❤️")
