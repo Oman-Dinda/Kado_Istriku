@@ -25,30 +25,31 @@ if st.button("KLIK UNTUK MEMBUKA"):
     # Surat Cinta Jarak Jauh
     st.markdown("""
     ### Dear Sayangku,
-    Selamat ulang tahun ya! Meskipun ulang tahun kali ini kita harus terhalang jarak 
-    dan belum bisa tiup lilin bareng, semoga esensi bahagia dan doaku tetep sampai ke kamu.
+    Selamat ulang tahun yaa Meskipun ulang tahun kali ini kita masii harus terhalang jarak 
+    dan belum bisa bareng-barengg, semoga bahagia dan doa kaka tetep sampai ke adee yaa.
     
-    Terima kasih ya sudah menjadi istri yang luar biasa hebat, penyabar, dan selalu 
-    mendukung aku di sini. Semoga di usia yang baru ini kamu selalu sehat, dilimpahkan 
-    kebahagiaan, dan Allah mudahkan segala urusanmu. 
+    Terima kasih ya sudah menjadi calon istri yang luar biasa hebat, penyabar, dan selalu 
+    mendukung kaka di sini. Semoga di milad ini adee selalu sehat lahir dan batin yaaa, dilimpahkan 
+    kebahagiaan terusss, dan Allah mudahkan segala urusan adeee yaaa, Aamiiinnn. 
     
-    Tunggu aku pulang ya, *I love you to the moon and back!* 🌙❤️
+    Tunggu ketemu yaaa, *I love you so sooo muchhhh* 🌙❤️
     """)
 
 st.divider()
 
 # 3. Fitur Interaktif: Kupon Kado Jarak Jauh
 st.subheader("🎫 Pilih Hadiah Ulang Tahunmu!")
-st.write("Meskipun lagi LDR, hadiah tetep jalan terus dong. Silakan pilih salah satu kado di bawah ini, suamimu siap mengabulkannya! 😉")
+st.write("Meskipun lagi jauh nii bolehh kann ngasihh. Pilih kado di bawah ini adee, kaka mau ngasihh 😉")
 
 kado_pilihan = st.selectbox(
     "Pilih kupon hadiahmu di sini:",
     [
         "Pilih salah satu...",
-        "Transferan Dana Kaget buat Check Out Shopee / Tokopedia 🛍️",
-        "Paket Skincare / Kosmetik Pilihanmu yang Langsung Dikirim ke Rumah 💄",
-        "Voucher Makan Malam Virtual (Aku GoFood-in Makanan Favoritmu) 🍕",
-        "Janji Liburan Berdua setelah Kita Ketemu Nanti ✈️"
+        "Transferan buat Check Out Kebutuhann 🛍️",
+        "Paket Skincare Langsung Dikirim ke Rumah nii 💄",
+        "Kaka GoFood-in Makanan Favorit Adee 🍕",
+        "Skin Baru Buat Main Mobile Legend Barengg"
+        "Janji Liburan Berdua setelah Kita Ketemu Nantii ✈️"
     ]
 )
 
